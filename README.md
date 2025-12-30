@@ -1,6 +1,6 @@
 # The Style is the Signal (ICWSM)
 
-This repo contains the code used to produce the paper’s reported numbers (logistic regression on CPU; LLM zero-shot via API; LLM tagger trained with 6×H200).
+This repo contains the code used to produce the paper’s reported numbers (logistic regression on CPU; LLM zero-shot via API; LLM tagger trained with 2–4×H200).
 
 ## What’s here
 - `notebooks/01_mbfc_url_masked_logreg_v6.ipynb`: Table 2 (TF‑IDF, SBERT+LR, Tag2Cred, ensembles; domain-disjoint; URL-masked).
